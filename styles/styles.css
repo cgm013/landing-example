@@ -159,9 +159,10 @@ p {
 
 .testimonial {
   background-color: var(--secondary-grey);
+  padding: 120px 0;
 }
 .testimonial-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -171,16 +172,63 @@ p {
   font-weight: 200;
 }
 
+.quote-person {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: italic;
+  margin: 10px 0;
+}
+
 /*CTA*/
+.cta {
+  padding: 120px 0;
+}
+
 .cta-container {
   background-color: var(--primary-light);
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
+  padding: 40px 100px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-title {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--secondary-white);
+}
+.left-cta-text {
+  flex-basis: 400px;
+}
+
+.cta-text {
+  color: var(--secondary-grey);
+}
+.cta-button {
+  background-color: var(--primary-light);
+  border: 2px solid var(--secondary-white);
+  margin: 20px 0;
+  padding: 10px 30px;
+  color: var(--secondary-white);
+  max-width: 100px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.cta-button:hover {
+  background-color: var(--secondary-white);
+  color: var(--primary-light);
 }
 
 /*FOOTER*/
 .footer {
   background-color: var(--primary-dark);
+  padding: 30px 0;
 }
 
 .footer-container {
@@ -190,4 +238,6 @@ p {
 
 .footer-paragraph {
   color: var(--secondary-grey);
+  text-align: center;
+  font-size: 20px;
 }
